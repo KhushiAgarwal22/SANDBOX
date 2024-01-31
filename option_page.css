@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to right,rgb(150, 198, 146), #98cdd4, #e0dfa4,rgb(215, 155, 150));
+    padding-bottom:2rem;
+}
+#row-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+#home-logo{
+    margin-top: 2rem;
+    z-index: 1000;
+    position: absolute;
+    top: 0rem;
+    width: 4rem;
+    left: 1.3rem;
+    cursor: pointer;
+}
+
+#row-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.container {
+    position: relative;
+    width: 50vw;
+    height:50vh;
+    margin-top:0.8rem;
+    margin-left:0.7rem;
+    margin-right:0.7rem;
+    border-radius:5%;
+
+}
+
+.photo {
+    opacity: 1;
+    display: inline-block;
+    width: 100%;
+    height:auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+   
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); 
+    text-align: center;
+    border-radius:10%;
+}
+
+.container:hover .photo {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+    transform:scale(1.4) translateX(-5rem) translateY(-1.5rem)  ;
+}
+
+#help-center:hover .middle{
+transform:scale(1.4) translateX(-7rem) translateY(-2rem)  ;
+}
+
+.text {
+    /*background-color: rgb(59, 161, 161); */
+    background-color:transparent;
+    color: black;
+    font-size:1.5rem;
+    font-weight:bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:1rem;
+}

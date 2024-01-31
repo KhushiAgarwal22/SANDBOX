@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(to right,rgb(150, 198, 146), #98cdd4, #e0dfa4,rgb(215, 155, 150));
+}
+
+.heading{
+    text-align:center;
+    font-size:2.8rem;
+    color:red;
+}
+
+.heading-2{
+    font-size:2rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    margin-left:1rem;
+    text-decoration: underline;
+    
+}
+
+.content{
+    font-size:1.5rem;
+    margin-left:1.5rem;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

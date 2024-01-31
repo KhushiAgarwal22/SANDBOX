@@ -81,30 +81,29 @@ div {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  font-size:3vmin;
+  font-size: 3vmin;
 }
 
 a:any-link {
   color: aliceblue;
-
 }
 .info {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 7vmin
+  margin-top: 7vmin;
 }
 .box {
   border: 2px solid black;
-  height: 430px;
-  width: 373px;
+  width: 30vw;
   display: flex;
   flex-direction: column;
-  margin: 15px;
   border-radius: 5px;
   box-shadow: 0 14px 18px 0 rgba(145, 144, 147, 0.3),
     0 6px 20px 0 rgba(156, 157, 161, 0.3);
+  height: 70vh;
+  padding:3vmin;
 }
 .box:hover {
   border: 2px solid black;
@@ -112,29 +111,31 @@ a:any-link {
     0 6px 20px 0 rgba(119, 120, 121, 0.5);
 }
 .img1 {
-  height: 210px;
+    height: 50%;
   width: 100%;
-  background-image: url("chat-pot.png");
+  background-image: url("/assets/startup1.jpg");
+  background-size: contain;
 }
 
 .img2 {
-  height: 210px;
+  height: 50%;
   width: 100%;
-  background-image: url("road-map.png");
+  background-image: url("/assets/startup2.jpg");
+  background-size: contain;
 }
 .img3 {
-  height: 210px;
+    height: 50%;
   width: 100%;
-  background-image: url("onlineOffline.png");
+  background-image: url("/assets/startup3.jpg");
+  background-size: contain;
 }
 .con1,
 .con2,
 .con3 {
-  padding: 12px;
-  width: 90%;
+  width: 95%;
   text-align: center;
-  font-size: 1.3rem;
-  height: 218px;
+  font-size: 3vmin;
+  margin-top:1vmin;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -153,7 +154,7 @@ a:any-link {
   z-index: 0;
   border-radius: 10px;
   margin: 15px;
-  font-size:2.5vmin
+  font-size: 2.5vmin;
 }
 
 .signin:before,
@@ -243,13 +244,12 @@ footer {
   font-weight: bold;
   position: absolute;
   width: 100%;
-  padding:2vmin;
+  padding: 2vmin;
 }
 .container {
   margin-bottom: 100px;
 }
 .quote {
-
   text-align: center;
   background-color: rgb(20, 34, 228);
   color: black;

@@ -102,7 +102,8 @@ a:any-link {
   border-radius: 5px;
   box-shadow: 0 14px 18px 0 rgba(145, 144, 147, 0.3),
     0 6px 20px 0 rgba(156, 157, 161, 0.3);
-  height: 50vh;
+  height: 70vh;
+  padding:3vmin;
 }
 .box:hover {
   border: 2px solid black;
@@ -110,28 +111,31 @@ a:any-link {
     0 6px 20px 0 rgba(119, 120, 121, 0.5);
 }
 .img1 {
-  height: 210px;
+    height: 50%;
   width: 100%;
-  background-image: url("chat-pot.png");
+  background-image: url("/assets/startup1.jpg");
+  background-size: contain;
 }
 
 .img2 {
-  height: 210px;
+  height: 50%;
   width: 100%;
-  background-image: url("road-map.png");
+  background-image: url("/assets/startup2.jpg");
+  background-size: contain;
 }
 .img3 {
-  height: 210px;
+    height: 50%;
   width: 100%;
-  background-image: url("onlineOffline.png");
+  background-image: url("/assets/startup3.jpg");
+  background-size: contain;
 }
 .con1,
 .con2,
 .con3 {
-  width: 90%;
+  width: 95%;
   text-align: center;
-  font-size: 1.3rem;
-  height: 218px;
+  font-size: 3vmin;
+  margin-top:1vmin;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
